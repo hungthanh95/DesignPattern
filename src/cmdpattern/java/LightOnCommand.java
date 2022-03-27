@@ -1,4 +1,4 @@
-package cmdpattern;
+package cmd.java.cmdpattern;
 
 public class LightOnCommand implements Command {
     Light light;
@@ -7,6 +7,12 @@ public class LightOnCommand implements Command {
     public void execute() {
         light.on();
     }
+
+    @Override
+    public void undo() {
+        light.off();
+    }
+
     public LightOnCommand(Light light) {
         this.light = light;
     }

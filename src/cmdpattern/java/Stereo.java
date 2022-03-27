@@ -1,4 +1,4 @@
-package cmdpattern;
+package cmd.java.cmdpattern;
 
 public class Stereo {
     String room;

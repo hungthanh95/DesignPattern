@@ -1,4 +1,4 @@
-package cmdpattern;
+package cmd.java.cmdpattern;
 
 public class StereoOnWithCDCommand implements Command {
 
@@ -13,5 +13,10 @@ public class StereoOnWithCDCommand implements Command {
         stereo.on();
         stereo.setCD();
         stereo.setVolume();
+    }
+
+    @Override
+    public void undo() {
+
     }
 }

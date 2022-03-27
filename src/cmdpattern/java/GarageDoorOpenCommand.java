@@ -1,4 +1,4 @@
-package cmdpattern;
+package cmd.java.cmdpattern;
 
 public class GarageDoorOpenCommand implements Command {
 
@@ -11,5 +11,10 @@ public class GarageDoorOpenCommand implements Command {
     @Override
     public void execute() {
         garageDoor.up();
+    }
+
+    @Override
+    public void undo() {
+
     }
 }

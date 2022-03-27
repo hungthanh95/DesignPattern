@@ -1,5 +1,5 @@
-package test;
-import cmdpattern.*;
+package cmd.java.cmdpattern.test;
+import cmd.java.cmdpattern.*;
 
 public class RemoteControlTest {
     public static void main(String[] args) {

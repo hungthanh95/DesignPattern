@@ -1,4 +1,6 @@
-package cmdpattern;
+package cmd.java.cmdpattern.test;
+
+import cmd.java.cmdpattern.*;
 
 public class RemoteLoader {
     public static void main(String[] args) {
